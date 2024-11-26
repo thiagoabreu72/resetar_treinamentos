@@ -1,0 +1,16 @@
+<p-card
+  header="Resetar treinamentos."
+  [style]="{ 'text-align': 'left' }"
+> 
+  <div class="col-12">
+    <p-button
+      class="p-button-sm"
+      label="RESETAR"
+      [style]="{ width: '100%', background: '#428bca' }"
+      icon="pi pi-search"
+      (onClick)="resetaCurso()"
+      [disabled]="bloquearCampos"
+    ></p-button>
+    <!-- style="position: absolute; bottom: 10px; left: 0; right: 0" -->
+  </div>
+</p-card>

@@ -1,0 +1,8 @@
+{
+    "/v2": {
+        "target": "https://rhid.com.br",
+        "secure": true,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}

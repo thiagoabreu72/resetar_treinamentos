@@ -1,0 +1,9 @@
+<div>
+  <app-mensagem [dadosMensagem]="this.dadosMensagem"></app-mensagem>
+  <app-spinner [carregandoDados]="this.carregando"></app-spinner>
+
+  <app-tabela
+    (enviaMensagem)="this.getDadosMensagem($event)"
+    (habilitaSpinner)="getValorSpinner($event)"
+  ></app-tabela>
+</div>

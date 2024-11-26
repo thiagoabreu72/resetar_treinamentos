@@ -1,0 +1,31 @@
+.status-definicao {
+  color: blue; /* Cor para status "Pendente" */
+}
+
+.status-andamento {
+  color: blue;
+}
+
+.status-concluida {
+  color: green; /* Cor para status "Aprovado" */
+}
+
+.status-cancelada {
+  color: red; /* Cor para status "Recusado" */
+}
+
+tr td,
+tr th {
+  text-align: left;
+  padding: 0.6rem 0.6rem;
+}
+
+@media screen and (max-width: 650px) {
+  .card-flexivel {
+    flex-direction: column;
+  }
+
+  .selecionado:hover {
+    background: rgb(197, 198, 199); /* Cor ao passar o mouse */
+  }
+}
